@@ -1,5 +1,9 @@
 package main
 
+import (
+	"fmt"
+)
+
 /*
 The number of nodes in the list is in the range [1, 100].
 1 <= Node.val <= 100
@@ -12,7 +16,7 @@ func main() {
 	head := deleteDuplicates(n1)
 
 	for head != nil {
-		print(head.Val, " ")
+		fmt.Print(head.Val, " ")
 		head = head.Next
 	}
 }

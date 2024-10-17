@@ -5,32 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dedd42d3-c8e1-4575-9f25-533a31e54297" name="Changes" comment="init">
-      <change beforePath="$PROJECT_DIR$/linkedlist/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linkedlist/reverse_linked_list_2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedlist/delete_duplicates.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/delete_duplicates/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="GOROOT" url="file:///usr/local/go" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file:///usr/lib/go-1.18" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "thereisnoneedtoreadit"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thereisnoneedtoreadit&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/thereisnoneedtoreadit/algos",
-    "accountId": "0b958bd0-9dbb-4baf-b94b-34fe88ab8c70"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/thereisnoneedtoreadit/algos&quot;,
+    &quot;accountId&quot;: &quot;0b958bd0-9dbb-4baf-b94b-34fe88ab8c70&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ksZhj7SNSfPbJJ1GxXTas0k2gE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,7 +48,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
     "Go Build.go build algos/linkedlist.executor": "Run",
+    "Go Build.go build algos/linkedlist/delete_duplicates.executor": "Run",
+    "Go Build.go build algos/linkedlist/reverse_linked_list_2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
     "RunOnceActivity.go.migrated.go.modules.settings": "true",
@@ -47,6 +59,7 @@
     "git-widget-placeholder": "main",
     "go.import.settings.migrated": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alexsh/IdeaProjects/algos/linkedlist/reverse_linked_list_2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,11 +70,17 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/linkedlist/reverse_linked_list_2" />
+      <recent name="$PROJECT_DIR$/linkedlist" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/linkedlist/delete_duplicates" />
       <recent name="$PROJECT_DIR$/linkedlist" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build algos/linkedlist/reverse_linked_list_2">
     <configuration name="go build algos/linkedlist" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algos" />
       <working_directory value="$PROJECT_DIR$" />
@@ -71,8 +90,28 @@
       <filePath value="$PROJECT_DIR$/linkedlist/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build algos/linkedlist/delete_duplicates" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algos" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos/linkedlist/delete_duplicates" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/linkedlist/delete_duplicates/main.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build algos/linkedlist/reverse_linked_list_2" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algos" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos/linkedlist/reverse_linked_list_2" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/linkedlist/reverse_linked_list_2/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build algos/linkedlist/reverse_linked_list_2" />
+        <item itemvalue="Go Build.go build algos/linkedlist/delete_duplicates" />
         <item itemvalue="Go Build.go build algos/linkedlist" />
       </list>
     </recent_temporary>
@@ -94,6 +133,8 @@
       <option name="presentableId" value="Default" />
       <updated>1724074366826</updated>
       <workItem from="1724074367792" duration="791000" />
+      <workItem from="1729178033787" duration="62000" />
+      <workItem from="1729178146117" duration="8521000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
