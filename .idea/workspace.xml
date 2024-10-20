@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dedd42d3-c8e1-4575-9f25-533a31e54297" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/linkedlist/reverse_linked_list_2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stacks_and_queues/simplify_path/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedlist/delete_duplicates.go" beforeDir="false" afterPath="$PROJECT_DIR$/linkedlist/delete_duplicates/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +32,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/thereisnoneedtoreadit/algos&quot;,
-    &quot;accountId&quot;: &quot;0b958bd0-9dbb-4baf-b94b-34fe88ab8c70&quot;
+    &quot;url&quot;: &quot;https://github.com/thereisnoneedtoreadit/algos.git&quot;,
+    &quot;accountId&quot;: &quot;0e3e21ff-d53b-4d38-96c3-71f020be73d9&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -46,31 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Go Build.go build algos/linkedlist.executor": "Run",
-    "Go Build.go build algos/linkedlist/delete_duplicates.executor": "Run",
-    "Go Build.go build algos/linkedlist/reverse_linked_list_2.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/alexsh/IdeaProjects/algos/linkedlist/reverse_linked_list_2",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/aleksandr.shashnin/projects/sandbox/go/algos/algos/main.go",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build algos/linkedlist.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build algos/linkedlist/delete_duplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build algos/linkedlist/reverse_linked_list_2.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/alexsh/IdeaProjects/algos/stacks_and_queues/simplify_path&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/aleksandr.shashnin/projects/sandbox/go/algos/algos/main.go&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/stacks_and_queues/simplify_path" />
       <recent name="$PROJECT_DIR$/linkedlist/reverse_linked_list_2" />
       <recent name="$PROJECT_DIR$/linkedlist" />
       <recent name="$PROJECT_DIR$" />
@@ -80,7 +80,7 @@
       <recent name="$PROJECT_DIR$/linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build algos/linkedlist/reverse_linked_list_2">
+  <component name="RunManager" selected="Go Build.go build algos/stacks_and_queues/simplify_path">
     <configuration name="go build algos/linkedlist" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="algos" />
       <working_directory value="$PROJECT_DIR$" />
@@ -108,8 +108,18 @@
       <filePath value="$PROJECT_DIR$/linkedlist/reverse_linked_list_2/main.go" />
       <method v="2" />
     </configuration>
+    <configuration name="go build algos/stacks_and_queues/simplify_path" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="algos" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="algos/stacks_and_queues/simplify_path" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/stacks_and_queues/simplify_path/main.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build algos/stacks_and_queues/simplify_path" />
         <item itemvalue="Go Build.go build algos/linkedlist/reverse_linked_list_2" />
         <item itemvalue="Go Build.go build algos/linkedlist/delete_duplicates" />
         <item itemvalue="Go Build.go build algos/linkedlist" />
@@ -135,6 +145,8 @@
       <workItem from="1724074367792" duration="791000" />
       <workItem from="1729178033787" duration="62000" />
       <workItem from="1729178146117" duration="8521000" />
+      <workItem from="1729262115750" duration="151000" />
+      <workItem from="1729327011507" duration="65000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
